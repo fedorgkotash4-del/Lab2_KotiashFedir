@@ -9,7 +9,7 @@ int main() {
     if (!(cin >> a >> op >> b)) { cerr << "Error: invalid input\n"; return 1; }
     switch (op) {
         case 1: // addition
-            cerr << "Operation not implemented\n"; return 3;
+            result = a + b;
             break;
         case 2: // subtraction
             cerr << "Operation not implemented\n"; return 3;
