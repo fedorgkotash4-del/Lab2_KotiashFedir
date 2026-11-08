@@ -18,7 +18,8 @@ int main() {
             result = a * b;
             break;
         case 4: // division
-            cerr << "Operation not implemented\n"; return 3;
+            if (b == 0) { cerr << "Error: division by zero\n"; return 2; }
+            result = a / b;
             break;
         default: cerr << "Error: unknown operation\n"; return 1;
     }
