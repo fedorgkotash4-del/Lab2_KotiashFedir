@@ -15,7 +15,7 @@ int main() {
             result = a - b;
             break;
         case 3: // multiplication
-            cerr << "Operation not implemented\n"; return 3;
+            result = a * b;
             break;
         case 4: // division
             cerr << "Operation not implemented\n"; return 3;
